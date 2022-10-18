@@ -1,0 +1,35 @@
+.promo {
+    position: relative;
+    height: 716px;
+    background: url('../img/promo.png') no-repeat center/cover;
+    &__wrapper {
+        max-width: 780px;
+        height: 336px;
+        position: absolute;
+        top: 170px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 68px;
+        line-height: 110%;
+        color: $white;
+    }
+    &__descr {
+        margin-top: 28px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: $white;
+    }
+    &__btns {
+        margin-top: 52px;
+        display: flex;
+        .button {
+            &-saller {
+                margin-right: 32px;
+            }
+        }
+    }
+}

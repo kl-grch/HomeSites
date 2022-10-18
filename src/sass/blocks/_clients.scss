@@ -1,0 +1,20 @@
+.clients {
+    margin: 60px 0;
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 277px);
+        grid-template-rows: 68px;
+        gap: 30px;
+        grid-auto-rows: 68px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    &__item {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

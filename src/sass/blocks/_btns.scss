@@ -1,0 +1,49 @@
+.button {
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    &-call {
+        border: 1px solid $orange;
+        background-color: $white;
+        color: $orange;
+        font-size: 16px;
+        padding: 16px 28px;
+        &:hover {
+            background-color: #CA4600;
+            border: 1px solid #CA4600;
+            color: $white;
+        }
+    }
+    &-saller {
+        padding: 20px 40px;
+        font-size: 18px;
+        line-height: 22px;
+        color: $white;
+        background-color: $orange;
+        border: none;
+        &:hover {
+            background-color: #CA4600;
+        }
+    }
+    &-audit {
+        padding: 20px 40px;
+        font-size: 18px;
+        line-height: 22px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid $white;
+        backdrop-filter: blur(2.5px);
+        font-size: 18px;
+        line-height: 22px;
+        color: $white;
+        &:hover {
+            color: $orange;
+            border: 1px solid $orange;
+        }
+    }
+}
